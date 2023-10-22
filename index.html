@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sizing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="Create_me_a_logo_with_purple_background_and_with (1).jpg" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav class="flex-left">
+        <ul>
+          <li>X's vs. O's</li>
+          <div></div>
+          <li class="menu" id="menu"><i class="fa-solid fa-bars"></i></li>
+          
+        </ul>
+        <div class="dropdown" id="dropdown">
+                <div>Menu</div>
+               <a href="https://muhammad3490.github.io/web-dev/"><div>Creator</div></a> 
+               <a href="https://muhammad3490.github.io/TodoMate/"><div>Todo Mate</div></a> 
+                <a href="https://muhammad3490.github.io/ActiveSync-app/"><div>Active Sync</div></a>
+                
+                
+          </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="gameContainer">
+        <div class="container">
+          <div class="box flex-center bt-0 bl-0"><span class="boxtext"></span></div>
+          <div class="box flex-center bt-0"><span class="boxtext"></span></div>
+          <div class="box flex-center bt-0 br-0"><span class="boxtext"></span></div>
+          <div class="box flex-center bl-0"><span class="boxtext"></span></div>
+          <div class="box flex-center"><span class="boxtext"></span></div>
+          <div class="box flex-center br-0"><span class="boxtext"></span></div>
+          <div class="box flex-center bl-0 bb-0"><span class="boxtext"></span></div>
+          <div class="box flex-center bb-0"><span class="boxtext"></span></div>
+          <div class="box flex-center br-0 bb-0"><span class="boxtext"></span></div>
+        </div>
+        <div class="grid">    
+        <div class="gameInfo">
+          <h1>Welcome to Tic Tac Toe</h1>
+        </div>
+        <div>
+            <span class="info">Turn for X</span>
+        </div>
+        <div>   
+          
+          <button id="reset" class="btn">Reset</button>
+        </div>
+        <div class="img-box">   
+          <img src="excited.gif" alt="" />
+        </div>
+    </div>
+      </div>
+    </main>
+ 
+
+    <script src="script.js"></script>
+  </body>
+</html>
